@@ -135,6 +135,12 @@ html[data-locale^="zh"] {
   --font-serif: "Songti TC", "Noto Serif CJK TC", "PMingLiU", serif;
 }
 
+html:lang(zh-Hans),
+html[data-locale="zh-cn"] {
+  --font-sans: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  --font-serif: "Songti SC", "Noto Serif CJK SC", "SimSun", serif;
+}
+
 /* Dark mode styles */
 .dark {
   --background: #0b1424;

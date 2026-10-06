@@ -1,10 +1,16 @@
 import type { NextConfig } from "next";
+import variant from "./site-variant.json";
+
+const basePath = `/${variant.repository}`;
 
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: "/Resume",
-  assetPrefix: "/Resume",
+  basePath,
+  assetPrefix: basePath,
+  env: {
+    NEXT_PUBLIC_SITE_REPOSITORY: variant.repository,
+  },
   images: {
     unoptimized: true,
   },
@@ -19,4 +25,10 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default function config(phase: string): NextConfig {
+  return {
+    ...nextConfig,
+    // Development and export builds can run without overwriting each other's files.
+    distDir: phase === 'phase-development-server' ? '.next-dev' : '.next',
+  };
+}

@@ -1,6 +1,6 @@
 type = "text"
 title = "Mingkang Wang"
-description = "Supply Chain · Operations · Analytics · Hong Kong"
+description = "Operations · Hong Kong"
 source = "cv.md"
 printable = true
-download_url = "/downloads/Mingkang-Wang-CV.pdf"
+download_url = "/downloads/operations/Mingkang-Wang-CV-en.pdf"

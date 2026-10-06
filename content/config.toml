@@ -1,15 +1,15 @@
 [site]
 title = "Mingkang Wang"
-description = "Mingkang Wang's Hong Kong portfolio, focused on supply chain, operations and analytics."
-favicon = "/Resume/favicon.svg"
-last_updated = "October 2, 2026"
+description = "Mingkang Wang's Hong Kong portfolio, focused on operations."
+favicon = "/Resume-Operations/favicon.svg"
+last_updated = "October 6, 2026"
 
 [author]
 name = "Mingkang Wang"
 eyebrow = "Hong Kong"
-title = "MSc Student | Supply Chain, Operations & Analytics"
+title = "MSc Student | Operations"
 institution = "The Chinese University of Hong Kong"
-avatar = "/Resume/bio.webp"
+avatar = "/Resume-Operations/bio.webp"
 
 [social]
 email = "mink_98@foxmail.com"
@@ -23,9 +23,9 @@ enable_one_page_mode = true
 
 [i18n]
 enabled = true
-locales = ["en", "zh"]
+locales = ["en", "zh", "zh-cn"]
 default_locale = "en"
-mode = "auto"
+mode = "fixed"
 fixed_locale = "en"
 persist = true
 switcher = true
@@ -33,6 +33,7 @@ switcher = true
 [i18n.labels]
 en = "English"
 zh = "繁體中文"
+zh-cn = "简体中文"
 
 [[navigation]]
 title = "Profile"

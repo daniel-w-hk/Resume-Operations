@@ -1,0 +1,22 @@
+type = "card"
+title = "技能与学习"
+description = "持续累积商业分析与运营决策所需的实用工具。"
+columns = 1
+
+[[items]]
+title = "Excel 数据分析"
+subtitle = "Luke Barousse · Excel for Data Analytics"
+date = "已完成课程"
+content = "完成涵盖数据清洗与整合、公式及数据透视表、交互仪表盘的实践训练，将原始数据整理成清晰的分析与报表。还学习运用 Power Query 及 Power Pivot，建立可重复更新的报表流程，并分析多个相关数据表。"
+tags = ["Excel", "数据透视表", "Power Query", "Power Pivot", "仪表盘"]
+link = "https://github.com/lukebarousse/Excel_Data_Analytics_Course"
+link_label = "课程内容"
+
+[[items]]
+title = "Excel 薪资分析仪表盘"
+subtitle = "课程实践项目"
+date = "已完成"
+content = "建立可按职位、国家及工作类型探索薪资的交互工作簿。运用 XLOOKUP、FILTER、SORT 及 UNIQUE 连接筛选选项与分析结果，结合条件中位数计算及图表，方便比较不同场景。"
+tags = ["Excel 公式", "动态数组", "条件统计", "图表"]
+download_url = "/downloads/Excel-Salary-Analysis.xlsx"
+download_label = "下载 Excel 项目"

@@ -1,0 +1,26 @@
+type = "card"
+title = "奖项与资历"
+description = "大学期间取得的主要奖项及语言资历。"
+columns = 2
+
+[[items]]
+title = "国家奖学金"
+subtitle = "国家级奖学金"
+date = "2025"
+content = "因学业表现及综合成就获奖。"
+
+[[items]]
+title = "优秀共青团员"
+subtitle = "东南大学"
+date = "2022 学年"
+content = "因校园参与及综合表现获表扬。"
+
+[[items]]
+title = "三星志愿者"
+subtitle = "东南大学"
+content = "本科期间完成 237.9 小时经核实的志愿服务。"
+
+[[items]]
+title = "英语资历"
+subtitle = "IELTS 及全国大学英语四、六级考试"
+content = "**IELTS：6.5** · **CET-4：563** · **CET-6：489**"

@@ -14,6 +14,7 @@ export interface TextPageConfig extends BasePageConfig {
     source: string;
     printable?: boolean;
     download_url?: string;
+    download_filename?: string;
 }
 
 export interface CardItem {
@@ -25,6 +26,8 @@ export interface CardItem {
     link?: string;
     link_label?: string;
     image?: string;
+    download_url?: string;
+    download_label?: string;
 }
 
 export interface CardPageConfig extends BasePageConfig {

@@ -1,6 +1,6 @@
 type = "text"
 title = "王明康"
-description = "供應鏈 · 營運 · 數據分析 · 香港"
+description = "營運 · 香港"
 source = "cv.md"
 printable = true
-download_url = "/downloads/Mingkang-Wang-CV.pdf"
+download_url = "/downloads/operations/Mingkang-Wang-CV-zh.pdf"

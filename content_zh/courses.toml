@@ -1,6 +1,6 @@
 type = "card"
 title = "精選課程"
-description = "六門與供應鏈、營運及數據分析相關的高分課程。"
+description = "精選高分課程及應用實作。"
 columns = 2
 
 [[items]]

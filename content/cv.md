@@ -2,7 +2,7 @@
 
 ## Profile
 
-MSc student in Systems Engineering and Engineering Management with a Bachelor of Management in Logistics Management. Seeking graduate roles in supply chain, operations or business analytics, with experience across quantitative research, project delivery and campus operations.
+MSc student in Systems Engineering and Engineering Management with a Bachelor of Management in Logistics Management. Seeking graduate roles in operations, with experience across quantitative research, project delivery and campus operations.
 
 ## Education
 
@@ -17,19 +17,12 @@ MSc student in Systems Engineering and Engineering Management with a Bachelor of
 
 ## Selected Projects
 
-### D3QN-Based Single-UAV Path Planning in Layered Grid Environments
+### Urban Drone Route Planning and Optimisation
 
-**Undergraduate Thesis · Southeast University** | *Oct 2025–May 2026*
+**Project Lead · Provincial Research Programme & Undergraduate Thesis** | *Jun 2025–May 2026*
 
-- Built a D3QN for static point-to-point planning with local-state inputs, experience replay and boundary-aware action masking.
-- Benchmarked it against A* on 100 simulated routes using path length, post-computed energy and inference time.
-
-### Urban UAV Path Optimisation in Spatial Grid Environments
-
-**Project Lead · Provincial Undergraduate Research Training Programme** | *Jun 2025–Apr 2026*
-
-- Led a four-member team and owned the research design, algorithms and final deliverables.
-- Converted ten urban map slices into four-layer occupancy grids and built 100 start–goal scenarios.
+- Led a four-member team through research design, task allocation, analysis and final delivery; developed 100 route-planning scenarios from ten urban map segments.
+- Compared route alternatives by distance, estimated energy use and processing time, and developed the work into an undergraduate thesis.
 
 ### Digital Technologies and Platforms in Logistics Service Ecosystems
 
@@ -58,7 +51,7 @@ MSc student in Systems Engineering and Engineering Management with a Bachelor of
 - Excel: completed Luke Barousse’s [Excel for Data Analytics](https://github.com/lukebarousse/Excel_Data_Analytics_Course); practical training in data cleaning, PivotTables, dashboards, Power Query and Power Pivot
 - Operations: supply chain, logistics, process analysis, project coordination
 - Analytics: business intelligence, data analysis, discrete-event simulation
-- Methods: A*, D3QN, 3D occupancy-grid modelling, FlexSim
+- Tools: Excel (XLOOKUP, dynamic arrays, charts); FlexSim
 - English: IELTS 6.5; CET-4 563; CET-6 489
 
 ## Recognition

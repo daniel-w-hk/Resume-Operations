@@ -1,0 +1,26 @@
+type = "card"
+title = "教育背景"
+description = "从物流管理与定量决策延伸至系统工程。"
+
+[[items]]
+title = "香港中文大学"
+subtitle = "系统工程与工程管理理学硕士"
+date = "2026–至今"
+content = "课程涵盖系统工程、决策分析与工程管理。"
+tags = ["系统工程", "工程管理"]
+
+[[items]]
+title = "东南大学"
+subtitle = "管理学学士（物流管理）｜经济管理学院"
+date = "2022–2026"
+content = """
+- 最终累计绩点：**3.57/4.0**；本科排名**第 6 名**。
+"""
+tags = ["供应链", "数据分析"]
+
+[[items]]
+title = "南洋理工大学"
+subtitle = "暑期项目｜信息分析基础"
+date = "2024"
+content = "**Foundation of Information Analytics** 成绩：**A-**。"
+tags = ["信息分析", "国际学习"]

@@ -1,0 +1,140 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,top=10mm,bottom=9mm,left=13mm,right=13mm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\setmainfont{Helvetica Neue}
+\setCJKmainfont[AutoFakeBold=2.0]{Heiti TC}
+\definecolor{Navy}{HTML}{102A43}
+\definecolor{Teal}{HTML}{0F766E}
+\definecolor{Slate}{HTML}{475569}
+\definecolor{Rule}{HTML}{CBD5E1}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=Teal,
+  pdfauthor={Mingkang Wang},
+  pdftitle={Mingkang Wang - Curriculum Vitae},
+  pdfsubject={Supply Chain}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=1.5em
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.8pt,topsep=1.5pt,parsep=0pt,partopsep=0pt}
+\renewcommand{\arraystretch}{1.0}
+
+\newcommand{\sectiontitle}[1]{%
+  \vspace{5pt}%
+  {\color{Navy}\bfseries\fontsize{11.4}{12.8}\selectfont #1}\par
+  \vspace{1.2pt}{\color{Rule}\hrule height 0.55pt}\vspace{3pt}%
+}
+
+\newcommand{\roleline}[3]{%
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}p{34mm}@{}}
+    {\bfseries\color{Navy}#1} & {\fontsize{8.65}{10.2}\selectfont\color{Slate}#3}\\[-0.3pt]
+    {\fontsize{8.7}{10.3}\selectfont\color{Slate}#2} &
+  \end{tabularx}\vspace{-0.5pt}%
+}
+
+\newcommand{\skillrow}[2]{%
+  \noindent
+  \parbox[t]{23mm}{\strut\bfseries\color{Navy}#1}%
+  \hspace{4mm}%
+  \parbox[t]{\dimexpr\textwidth-27mm\relax}{\strut#2}%
+  \par\vspace{2.2pt}%
+}
+
+\newcommand{\coursecell}[3]{%
+  \vspace{0pt}%
+  {\fontsize{8.85}{10.2}\selectfont
+    \noindent\hbox to \linewidth{\strut #1\hfil{\bfseries\color{Teal}#2}}\par}%
+  \vspace{-0.7pt}%
+  {\color{Slate}\fontsize{8}{9.2}\selectfont #3\par}%
+}
+
+\newcommand{\coursepair}[6]{%
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}\coursecell{#1}{#2}{#3}\end{minipage}\hfill%
+  \begin{minipage}[t]{0.485\linewidth}\coursecell{#4}{#5}{#6}\end{minipage}%
+  \par\vspace{2.4pt}%
+}
+
+\begin{document}
+\fontsize{9.15}{11.35}\selectfont
+\raggedright
+
+\begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{88mm}@{}}
+  {\fontsize{25}{27}\selectfont\bfseries\color{Navy} 王明康} &
+  \href{mailto:mink_98@foxmail.com}{mink\_98@foxmail.com} \quad | \quad +852 9402 3571\\[2pt]
+  {\fontsize{10.5}{12}\selectfont\bfseries\color{Teal} 供應鏈} &
+  {\fontsize{7.4}{9}\selectfont 香港 \quad | \quad \href{https://daniel-w-hk.github.io/Resume-Supply-Chain/}{daniel-w-hk.github.io/Resume-Supply-Chain}}
+\end{tabularx}
+
+\vspace{4pt}
+{\color{Rule}\hrule height 0.8pt}
+\vspace{4pt}
+
+香港中文大學系統工程與工程管理理學碩士生，東南大學物流管理學士。具備供應鏈、營運分析及定量研究背景，現尋求香港供應鏈職位。
+
+\sectiontitle{教育背景}
+\roleline{香港中文大學}{系統工程與工程管理理學碩士}{2026 - 至今}
+
+\roleline{東南大學}{管理學學士（物流管理），經濟管理學院}{2022 - 2026}
+\begin{itemize}
+  \item 最終 GPA：\textbf{3.57/4.0}；學士課程排名\textbf{第 6 名}。
+\end{itemize}
+
+\roleline{南洋理工大學}{暑期項目 - Foundation of Information Analytics（A-）}{2024}
+
+\sectiontitle{相關課程}
+\coursepair{博弈論}{97}{策略決策}{管理資訊系統}{95}{數碼商業系統}
+\coursepair{物流系統建模與仿真}{94}{FlexSim 與流程優化}{商務智能與數據挖掘}{93}{數據清理與聚類}
+\coursepair{物流系統規劃與設計}{92}{設施與網絡設計}{運籌學}{91}{優化與決策模型}
+
+\sectiontitle{精選項目}
+\roleline{城市無人機路徑規劃與優化}{項目負責人｜省級大學生創新訓練計劃暨本科畢業論文}{2025.06 - 2026.05}
+\begin{itemize}
+  \item 帶領四人團隊完成研究設計、任務分工、分析及成果交付，將 10 個城市地圖切片整理為 100 組航線規劃情境。
+  \item 以路徑距離、估算能耗及處理時間比較不同方案，並將研究延伸為本科畢業論文。
+\end{itemize}
+
+\roleline{數字技術與平台對物流服務生態系統的影響}{項目成員，校級大學生科研訓練項目}{2023 - 2024}
+\begin{itemize}
+  \item 梳理數碼技術、平台生態與供應鏈轉型研究，並參與初步概念模型建構。
+\end{itemize}
+
+\sectiontitle{領導及服務經驗}
+\roleline{科學技術協會副會長}{東南大學經濟管理學院}{2024 - 2025}
+\begin{itemize}
+  \item 負責招新、年度規劃、內部營運及財務；參與籌辦逾 20 場校級活動，服務逾 1,000 名師生。
+\end{itemize}
+
+\roleline{三星志願者}{東南大學}{2022 - 2026}
+\begin{itemize}
+  \item 本科期間完成\textbf{237.9 小時經核實的志願服務}，涵蓋殘障人士支援、長者及醫院服務。
+\end{itemize}
+
+\roleline{東南大學新生家訪團隊成員}{東南大學}{2023}
+\begin{itemize}
+  \item 聯絡逾 200 名新生，解答入學及校園生活問題，並參與 6 次新生家訪。
+\end{itemize}
+
+\sectiontitle{技能與榮譽}
+\skillrow{專業}{供應鏈管理、物流、流程分析、項目協調、FlexSim}
+\skillrow{分析}{商業智能、數據分析、離散事件模擬、概念建模}
+\skillrow{Excel}{XLOOKUP、動態陣列、條件統計及互動圖表}
+\skillrow{語言}{IELTS 6.5；CET-4 563；CET-6 489}
+\skillrow{榮譽}{國家獎學金（2025）；優秀共青團員；東南大學三星志願者}
+
+\end{document}

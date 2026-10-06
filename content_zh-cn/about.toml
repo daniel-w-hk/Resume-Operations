@@ -1,0 +1,25 @@
+type = "about"
+title = "个人简介"
+
+[profile]
+competencies = [
+  "供应链",
+  "运筹学",
+  "数据分析",
+  "系统工程",
+  "项目交付"
+]
+
+[[profile.metrics]]
+value = "3.57 / 4.0"
+label = "本科 GPA"
+
+[[profile.metrics]]
+value = "第 6 名"
+label = "本科排名"
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "个人简介"

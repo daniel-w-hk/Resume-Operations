@@ -9,9 +9,9 @@ date = "Oct 2025–May 2026"
 content = """
 - Extended the SRTP work into an individual thesis on static point-to-point planning for a single UAV.
 - Built a D3QN with local-state inputs, online and target networks, experience replay and boundary-aware action masking.
-- Benchmarked it against A* on 100 simulated routes using path length, post-computed energy and inference time.
+- Benchmarked it against Dijkstra on 100 simulated routes using path length, post-computed energy and inference time.
 """
-tags = ["D3QN", "A* Benchmark"]
+tags = ["D3QN", "Route Benchmarking"]
 
 [[items]]
 title = "Urban UAV Path Optimisation in Spatial Grid Environments"

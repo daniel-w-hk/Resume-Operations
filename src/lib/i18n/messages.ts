@@ -172,6 +172,23 @@ const zh: LocaleMessages = {
 export const messages: Record<string, LocaleMessages> = {
   en,
   zh,
+  'zh-cn': {
+    common: { all: '全部', copyToClipboard: '复制到剪贴板' },
+    navigation: { openMainMenu: '打开菜单' },
+    theme: { system: '跟随系统', light: '浅色', dark: '深色', currentTheme: '当前主题', cycleTheme: '点击切换主题' },
+    profile: {
+      email: '邮箱', location: '地点', workAddress: '地址', click: '点击', googleMap: 'Google 地图',
+      send: '发送', sendEmail: '发送邮件', researchInterests: '研究兴趣', like: '赞', liked: '已点赞',
+      thanks: '感谢支持！', coreCompetencies: '核心能力', viewResume: '查看简历', contact: '联系我',
+    },
+    home: { about: '个人简介', news: '近况', selectedPublications: '精选项目', viewAll: '查看全部' },
+    publications: {
+      searchPlaceholder: '搜索...', filters: '筛选', year: '年份', type: '类型',
+      noResults: '没有找到符合条件的内容。', abstract: '摘要', bibtex: 'BibTeX', code: '代码',
+    },
+    footer: { lastUpdated: '最近更新', builtWithPrism: '基于 PRISM 构建', evidenceAvailable: '可按需提供相关证明材料。' },
+    resume: { printOrSave: '下载 PDF 简历' },
+  },
 };
 
 export function getMessages(locale: string): LocaleMessages {

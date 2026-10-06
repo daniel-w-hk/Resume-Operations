@@ -11,3 +11,12 @@ content = "完成涵蓋數據清理與整合、公式及樞紐分析表、互動
 tags = ["Excel", "樞紐分析表", "Power Query", "Power Pivot", "儀表板"]
 link = "https://github.com/lukebarousse/Excel_Data_Analytics_Course"
 link_label = "課程內容"
+
+[[items]]
+title = "Excel 薪酬分析儀表板"
+subtitle = "課程實作項目"
+date = "已完成"
+content = "建立可按職位、國家及工作類型探索薪酬的互動活頁簿。運用 XLOOKUP、FILTER、SORT 及 UNIQUE 連結篩選選項與分析結果，結合條件中位數計算及圖表，方便比較不同情境。"
+tags = ["Excel 公式", "動態陣列", "條件統計", "圖表"]
+download_url = "/downloads/Excel-Salary-Analysis.xlsx"
+download_label = "下載 Excel 項目"

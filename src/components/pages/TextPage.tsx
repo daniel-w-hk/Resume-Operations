@@ -28,7 +28,7 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                 {config.printable && !embedded && (
                     <Link
                         href={config.download_url || '/downloads/Mingkang-Wang-CV.pdf'}
-                        download="Mingkang-Wang-CV.pdf"
+                        download={config.download_filename || config.download_url?.split('/').pop() || 'Mingkang-Wang-CV.pdf'}
                         className="print-action inline-flex w-fit items-center gap-2 rounded-xl border border-neutral-200 bg-white px-4 py-2.5 text-sm font-semibold text-primary shadow-sm transition-colors hover:border-accent hover:text-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:border-neutral-700 dark:bg-neutral-900"
                     >
                         <Download className="h-4 w-4" aria-hidden="true" />

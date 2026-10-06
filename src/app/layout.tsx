@@ -50,7 +50,7 @@ function buildLocaleBootstrapScript(config: ReturnType<typeof getRuntimeI18nConf
   return `
     try {
       const cfg = ${serializedConfig};
-      const storageKey = 'locale-storage';
+      const storageKey = 'locale-storage-${process.env.NEXT_PUBLIC_SITE_REPOSITORY || 'Resume'}-v2';
       const normalize = (value) => typeof value === 'string' ? value.trim().replace('_', '-').toLowerCase() : '';
       const matchLocale = (candidate) => {
         const normalized = normalize(candidate);
@@ -82,7 +82,7 @@ function buildLocaleBootstrapScript(config: ReturnType<typeof getRuntimeI18nConf
       }
 
       const root = document.documentElement;
-      root.lang = resolved;
+      root.lang = resolved === 'zh' ? 'zh-Hant' : resolved === 'zh-cn' ? 'zh-Hans' : resolved;
       root.setAttribute('data-locale', resolved);
 
       if (cfg.persist) {

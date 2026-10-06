@@ -1,0 +1,61 @@
+[site]
+title = "王明康"
+description = "王明康的香港求职作品集，聚焦运营。"
+last_updated = "2026 年 10 月 6 日"
+
+[author]
+name = "王明康"
+eyebrow = "香港"
+title = "理学硕士研究生｜运营"
+institution = "香港中文大学"
+
+[social]
+location = "香港"
+
+[[navigation]]
+title = "简介"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "项目"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "教育"
+type = "page"
+target = "education"
+href = "/education"
+
+[[navigation]]
+title = "技能与学习"
+type = "page"
+target = "skills"
+href = "/skills"
+
+[[navigation]]
+title = "精选课程"
+type = "page"
+target = "courses"
+href = "/courses"
+
+[[navigation]]
+title = "领导及服务"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "奖项与资历"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "简历"
+type = "link"
+target = "cv"
+href = "/cv/"
