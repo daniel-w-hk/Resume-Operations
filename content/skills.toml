@@ -20,3 +20,39 @@ content = "Built an interactive workbook to compare salaries by role, country an
 tags = ["Excel formulas", "Dynamic arrays", "Conditional statistics", "Charts"]
 download_url = "/downloads/Excel-Salary-Analysis.xlsx"
 download_label = "Download Excel project"
+
+[[items]]
+title = "SQL Querying with Transact-SQL"
+subtitle = "Microsoft DP-080 · Self-directed learning"
+date = "Course completed"
+content = "Completed Microsoft's DP-080 learning materials and labs, covering joins, subqueries, aggregation and window functions for querying and summarising data."
+tags = ["SQL", "Joins", "Window functions"]
+link = "https://microsoftlearning.github.io/dp-080-Transact-SQL/"
+link_label = "Official course"
+
+[[items]]
+title = "Power BI Data Analysis"
+subtitle = "Microsoft PL-300 · Self-directed learning"
+date = "Course completed"
+content = "Completed Microsoft's PL-300 learning materials and labs, covering Power Query data preparation, data modelling, DAX measures and interactive report design."
+tags = ["Power BI", "Power Query", "DAX", "Data modelling"]
+link = "https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/"
+link_label = "Official course"
+
+[[items]]
+title = "AtliQ Mart Delivery Performance Analysis"
+subtitle = "Independent practice · Codebasics sample data"
+date = "Completed"
+content = "Used SQLite and Power BI to analyse 31,729 orders against customer delivery targets. Traced delays and quantity shortfalls across cities, products and months, then set follow-up priorities for delivery and replenishment."
+tags = ["SQLite", "Power BI", "OTIF", "Supply chain analysis"]
+download_url = "/downloads/AtliQ-Mart-Delivery-Analysis.zip"
+download_label = "Download project files (ZIP)"
+
+[[items]]
+title = "Supplier Quality and Downtime Analysis"
+subtitle = "Independent practice · Microsoft sample data"
+date = "Completed"
+content = "Rebuilt four Power BI pages using Microsoft's Supplier Quality sample. Used DAX measures and linked filters to compare defects with downtime, trace supplier-material-plant combinations, and prioritise follow-up by operational impact rather than defect counts alone."
+tags = ["Power BI", "DAX", "Supplier quality", "Operational analysis"]
+download_url = "/downloads/Supplier-Quality-Analysis.zip"
+download_label = "Download project files (ZIP)"

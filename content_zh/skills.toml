@@ -20,3 +20,39 @@ content = "建立可按職位、國家及工作類型探索薪酬的互動活頁
 tags = ["Excel 公式", "動態陣列", "條件統計", "圖表"]
 download_url = "/downloads/Excel-Salary-Analysis.xlsx"
 download_label = "下載 Excel 項目"
+
+[[items]]
+title = "SQL 查詢與數據分析"
+subtitle = "Microsoft DP-080 · 自學課程"
+date = "已完成課程"
+content = "完成 Microsoft DP-080 官方學習內容與練習，涵蓋多表連接、子查詢、數據彙總及視窗函數，用於查詢與整理業務數據。"
+tags = ["SQL", "多表連接", "視窗函數"]
+link = "https://microsoftlearning.github.io/dp-080-Transact-SQL/"
+link_label = "官方課程"
+
+[[items]]
+title = "Power BI 數據分析"
+subtitle = "Microsoft PL-300 · 自學課程"
+date = "已完成課程"
+content = "完成 Microsoft PL-300 官方學習內容與練習，涵蓋 Power Query 數據整理、資料模型、DAX 度量值及互動報表設計。"
+tags = ["Power BI", "Power Query", "DAX", "數據建模"]
+link = "https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/"
+link_label = "官方課程"
+
+[[items]]
+title = "AtliQ Mart 交付表現分析"
+subtitle = "個人實作 · Codebasics 樣例數據"
+date = "已完成"
+content = "結合 SQLite 與 Power BI，分析 31,729 張訂單的交付表現與客戶目標差距。按城市、產品及月份追查延遲與交付數量不足的問題，提出配送及補貨的跟進重點。"
+tags = ["SQLite", "Power BI", "OTIF", "供應鏈分析"]
+download_url = "/downloads/AtliQ-Mart-Delivery-Analysis.zip"
+download_label = "下載項目成果（ZIP）"
+
+[[items]]
+title = "供應商品質與停機分析"
+subtitle = "個人實作 · Microsoft 樣例數據"
+date = "已完成"
+content = "以 Microsoft Supplier Quality 樣本重製四頁 Power BI 報表，運用 DAX 與連動篩選，比較缺陷數量及停機影響，追蹤供應商、物料與工廠組合，按營運影響安排跟進優先次序。"
+tags = ["Power BI", "DAX", "供應商品質", "營運分析"]
+download_url = "/downloads/Supplier-Quality-Analysis.zip"
+download_label = "下載項目成果（ZIP）"
