@@ -4,40 +4,13 @@ description = "Practical tools for business analysis and operational decision-ma
 columns = 1
 
 [[items]]
-title = "Excel for Data Analysis"
-subtitle = "Luke Barousse · Excel for Data Analytics"
-date = "Course completed"
-content = "Completed practical training in cleaning and combining data, analysing it with formulas and PivotTables, and presenting findings in interactive dashboards. Covered Power Query and Power Pivot for repeatable reporting and analysis across related datasets."
-tags = ["Excel", "PivotTables", "Power Query", "Power Pivot", "Dashboards"]
-link = "https://github.com/lukebarousse/Excel_Data_Analytics_Course"
-link_label = "Course content"
-
-[[items]]
-title = "Excel Salary Analysis Dashboard"
-subtitle = "Course practice project"
+title = "Supplier Quality and Downtime Analysis"
+subtitle = "Independent practice · Microsoft sample data"
 date = "Completed"
-content = "Built an interactive workbook to compare salaries by role, country and work schedule. Used XLOOKUP, FILTER, SORT and UNIQUE to connect selections to analysis, with conditional median calculations and charts to make comparisons easier to explore."
-tags = ["Excel formulas", "Dynamic arrays", "Conditional statistics", "Charts"]
-download_url = "/downloads/Excel-Salary-Analysis.xlsx"
-download_label = "Download Excel project"
-
-[[items]]
-title = "SQL Querying with Transact-SQL"
-subtitle = "Microsoft DP-080 · Self-directed learning"
-date = "Course completed"
-content = "Completed Microsoft's DP-080 learning materials and labs, covering joins, subqueries, aggregation and window functions for querying and summarising data."
-tags = ["SQL", "Joins", "Window functions"]
-link = "https://microsoftlearning.github.io/dp-080-Transact-SQL/"
-link_label = "Official course"
-
-[[items]]
-title = "Power BI Data Analysis"
-subtitle = "Microsoft PL-300 · Self-directed learning"
-date = "Course completed"
-content = "Completed Microsoft's PL-300 learning materials and labs, covering Power Query data preparation, data modelling, DAX measures and interactive report design."
-tags = ["Power BI", "Power Query", "DAX", "Data modelling"]
-link = "https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/"
-link_label = "Official course"
+content = "Rebuilt four Power BI pages using Microsoft's Supplier Quality sample. Used DAX measures and linked filters to compare defects with downtime, trace supplier-material-plant combinations, and prioritise follow-up by operational impact rather than defect counts alone."
+tags = ["Power BI", "DAX", "Supplier quality", "Operational analysis"]
+download_url = "/downloads/Supplier-Quality-Analysis.zip"
+download_label = "Download project files (ZIP)"
 
 [[items]]
 title = "AtliQ Mart Delivery Performance Analysis"
@@ -49,10 +22,37 @@ download_url = "/downloads/AtliQ-Mart-Delivery-Analysis.zip"
 download_label = "Download project files (ZIP)"
 
 [[items]]
-title = "Supplier Quality and Downtime Analysis"
-subtitle = "Independent practice · Microsoft sample data"
+title = "Power BI Data Analysis"
+subtitle = "Microsoft PL-300 · Self-directed learning"
+date = "Course completed"
+content = "Completed Microsoft's PL-300 learning materials and labs, covering Power Query data preparation, data modelling, DAX measures and interactive report design."
+tags = ["Power BI", "Power Query", "DAX", "Data modelling"]
+link = "https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/"
+link_label = "Official course"
+
+[[items]]
+title = "SQL Querying with Transact-SQL"
+subtitle = "Microsoft DP-080 · Self-directed learning"
+date = "Course completed"
+content = "Completed Microsoft's DP-080 learning materials and labs, covering joins, subqueries, aggregation and window functions for querying and summarising data."
+tags = ["SQL", "Joins", "Window functions"]
+link = "https://microsoftlearning.github.io/dp-080-Transact-SQL/"
+link_label = "Official course"
+
+[[items]]
+title = "Excel Salary Analysis Dashboard"
+subtitle = "Course practice project"
 date = "Completed"
-content = "Rebuilt four Power BI pages using Microsoft's Supplier Quality sample. Used DAX measures and linked filters to compare defects with downtime, trace supplier-material-plant combinations, and prioritise follow-up by operational impact rather than defect counts alone."
-tags = ["Power BI", "DAX", "Supplier quality", "Operational analysis"]
-download_url = "/downloads/Supplier-Quality-Analysis.zip"
-download_label = "Download project files (ZIP)"
+content = "Built an interactive workbook to compare salaries by role, country and work schedule. Used XLOOKUP, FILTER, SORT and UNIQUE to connect selections to analysis, with conditional median calculations and charts to make comparisons easier to explore."
+tags = ["Excel formulas", "Dynamic arrays", "Conditional statistics", "Charts"]
+download_url = "/downloads/Excel-Salary-Analysis.xlsx"
+download_label = "Download Excel project"
+
+[[items]]
+title = "Excel for Data Analysis"
+subtitle = "Luke Barousse · Excel for Data Analytics"
+date = "Course completed"
+content = "Completed practical training in cleaning and combining data, analysing it with formulas and PivotTables, and presenting findings in interactive dashboards. Covered Power Query and Power Pivot for repeatable reporting and analysis across related datasets."
+tags = ["Excel", "PivotTables", "Power Query", "Power Pivot", "Dashboards"]
+link = "https://github.com/lukebarousse/Excel_Data_Analytics_Course"
+link_label = "Course content"

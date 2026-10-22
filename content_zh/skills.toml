@@ -4,40 +4,13 @@ description = "持續累積商業分析與營運決策所需的實用工具。"
 columns = 1
 
 [[items]]
-title = "Excel 數據分析"
-subtitle = "Luke Barousse · Excel for Data Analytics"
-date = "已完成課程"
-content = "完成涵蓋數據清理與整合、公式及樞紐分析表、互動儀表板的實務訓練，將原始數據整理成清晰的分析與報表。亦學習運用 Power Query 及 Power Pivot，建立可重複更新的報表流程，並分析多個相關資料表。"
-tags = ["Excel", "樞紐分析表", "Power Query", "Power Pivot", "儀表板"]
-link = "https://github.com/lukebarousse/Excel_Data_Analytics_Course"
-link_label = "課程內容"
-
-[[items]]
-title = "Excel 薪酬分析儀表板"
-subtitle = "課程實作項目"
+title = "供應商品質與停機分析"
+subtitle = "個人實作 · Microsoft 樣例數據"
 date = "已完成"
-content = "建立可按職位、國家及工作類型探索薪酬的互動活頁簿。運用 XLOOKUP、FILTER、SORT 及 UNIQUE 連結篩選選項與分析結果，結合條件中位數計算及圖表，方便比較不同情境。"
-tags = ["Excel 公式", "動態陣列", "條件統計", "圖表"]
-download_url = "/downloads/Excel-Salary-Analysis.xlsx"
-download_label = "下載 Excel 項目"
-
-[[items]]
-title = "SQL 查詢與數據分析"
-subtitle = "Microsoft DP-080 · 自學課程"
-date = "已完成課程"
-content = "完成 Microsoft DP-080 官方學習內容與練習，涵蓋多表連接、子查詢、數據彙總及視窗函數，用於查詢與整理業務數據。"
-tags = ["SQL", "多表連接", "視窗函數"]
-link = "https://microsoftlearning.github.io/dp-080-Transact-SQL/"
-link_label = "官方課程"
-
-[[items]]
-title = "Power BI 數據分析"
-subtitle = "Microsoft PL-300 · 自學課程"
-date = "已完成課程"
-content = "完成 Microsoft PL-300 官方學習內容與練習，涵蓋 Power Query 數據整理、資料模型、DAX 度量值及互動報表設計。"
-tags = ["Power BI", "Power Query", "DAX", "數據建模"]
-link = "https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/"
-link_label = "官方課程"
+content = "以 Microsoft Supplier Quality 樣本重製四頁 Power BI 報表，運用 DAX 與連動篩選，比較缺陷數量及停機影響，追蹤供應商、物料與工廠組合，按營運影響安排跟進優先次序。"
+tags = ["Power BI", "DAX", "供應商品質", "營運分析"]
+download_url = "/downloads/Supplier-Quality-Analysis.zip"
+download_label = "下載項目成果（ZIP）"
 
 [[items]]
 title = "AtliQ Mart 交付表現分析"
@@ -49,10 +22,37 @@ download_url = "/downloads/AtliQ-Mart-Delivery-Analysis.zip"
 download_label = "下載項目成果（ZIP）"
 
 [[items]]
-title = "供應商品質與停機分析"
-subtitle = "個人實作 · Microsoft 樣例數據"
+title = "Power BI 數據分析"
+subtitle = "Microsoft PL-300 · 自學課程"
+date = "已完成課程"
+content = "完成 Microsoft PL-300 官方學習內容與練習，涵蓋 Power Query 數據整理、資料模型、DAX 度量值及互動報表設計。"
+tags = ["Power BI", "Power Query", "DAX", "數據建模"]
+link = "https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/"
+link_label = "官方課程"
+
+[[items]]
+title = "SQL 查詢與數據分析"
+subtitle = "Microsoft DP-080 · 自學課程"
+date = "已完成課程"
+content = "完成 Microsoft DP-080 官方學習內容與練習，涵蓋多表連接、子查詢、數據彙總及視窗函數，用於查詢與整理業務數據。"
+tags = ["SQL", "多表連接", "視窗函數"]
+link = "https://microsoftlearning.github.io/dp-080-Transact-SQL/"
+link_label = "官方課程"
+
+[[items]]
+title = "Excel 薪酬分析儀表板"
+subtitle = "課程實作項目"
 date = "已完成"
-content = "以 Microsoft Supplier Quality 樣本重製四頁 Power BI 報表，運用 DAX 與連動篩選，比較缺陷數量及停機影響，追蹤供應商、物料與工廠組合，按營運影響安排跟進優先次序。"
-tags = ["Power BI", "DAX", "供應商品質", "營運分析"]
-download_url = "/downloads/Supplier-Quality-Analysis.zip"
-download_label = "下載項目成果（ZIP）"
+content = "建立可按職位、國家及工作類型探索薪酬的互動活頁簿。運用 XLOOKUP、FILTER、SORT 及 UNIQUE 連結篩選選項與分析結果，結合條件中位數計算及圖表，方便比較不同情境。"
+tags = ["Excel 公式", "動態陣列", "條件統計", "圖表"]
+download_url = "/downloads/Excel-Salary-Analysis.xlsx"
+download_label = "下載 Excel 項目"
+
+[[items]]
+title = "Excel 數據分析"
+subtitle = "Luke Barousse · Excel for Data Analytics"
+date = "已完成課程"
+content = "完成涵蓋數據清理與整合、公式及樞紐分析表、互動儀表板的實務訓練，將原始數據整理成清晰的分析與報表。亦學習運用 Power Query 及 Power Pivot，建立可重複更新的報表流程，並分析多個相關資料表。"
+tags = ["Excel", "樞紐分析表", "Power Query", "Power Pivot", "儀表板"]
+link = "https://github.com/lukebarousse/Excel_Data_Analytics_Course"
+link_label = "課程內容"
