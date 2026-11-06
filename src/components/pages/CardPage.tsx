@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import { ArrowUpRight, Download } from 'lucide-react';
-import Link from 'next/link';
+import DownloadLink, { DownloadPrivacyNotice } from '@/components/ui/DownloadLink';
 import { CardPageConfig } from '@/types/page';
 
 const markdownComponents = {
@@ -51,6 +51,7 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                 )}
             </div>
 
+            {config.items.some(item => item.download_url) && <DownloadPrivacyNotice className="mb-5" />}
             <div className={`grid ${columnClass} ${embedded ? "gap-4" : "gap-6"}`}>
                 {config.items.map((item, index) => (
                     <motion.div
@@ -88,14 +89,14 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                             </div>
                         )}
                         {item.download_url && (
-                            <Link
+                            <DownloadLink
                                 href={item.download_url}
                                 download={item.download_url.split('/').pop()}
                                 className="mt-5 mr-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent transition-colors hover:text-accent-dark"
                             >
                                 <Download className="h-4 w-4" aria-hidden="true" />
                                 {item.download_label || 'Download workbook'}
-                            </Link>
+                            </DownloadLink>
                         )}
                         {item.link && (
                             <a
